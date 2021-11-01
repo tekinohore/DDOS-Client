@@ -1,15 +1,13 @@
 # DDOS
-A client and a server aimed at voluntary DDOS.
+Клиент и сервер, нацеленные на добровольную DDOS-атаку.
 ###### Client: C#.
 ###### Server: PHP.
 
-###License:
-Please read the included LICENSE file.
 
 ###Setup
-This program can work out of the box, however it is recommended to change the variables suggested in the server and client alike.
+Эта программа может работать из коробки, однако рекомендуется изменять переменные, предлагаемые как на сервере, так и на клиенте.
 
-Setup is easy. Upload the server.php to a webserver with PHP5+. Open the client's SLN in visual studio or some other editor. Open the Program.CS file, change the Server string to the location where you placed your server.php. Modify some more of the code if you wish. Build it, then run it. It should work. If you would like to just leave my server in there as a test, you may. You must use the SHA1 Secret provided to connect to my server, however.
+Настройка проста. Загрузите server.php на веб-сервер с PHP5 +. Откройте SLN клиента в visual studio или другом редакторе. Откройте файл Program.CS, измените строку Server на то место, где вы разместили свой server.php. Измените еще немного кода, если хотите. Постройте его, затем запустите. Он должен работать. Если вы хотите просто оставить мой сервер там для теста, вы можете это сделать. Однако вы должны использовать предоставленный секрет SHA1 для подключения к серверу.
 
 ###Purpose:
 I wrote this out of boredom. I wanted something simple, that worked. However I realized that this can help a lot of people who may have trouble with learning c# or any other language for that matter, so I decided to release its source. This also could be used for your own purposes. You may also contribute new code if you'd like.
